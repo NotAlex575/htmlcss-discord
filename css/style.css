@@ -261,14 +261,16 @@ header{
 }
 
 .titolo-sezioni{
+    margin-top: 25px;
     margin-bottom: 20px;
-    width: 80%;
+    width: 70%;
     font-family: sans-serif;
     font-size: 25px;
 }
 
 .descrizione-sezioni{
     font-size: 13px;
+    width: 80%;
 }
 
 .miniRettangoloAqua{
