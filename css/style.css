@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*LINK SENZA DECORAZIONE*/
+
+a{
+    text-decoration: none;
+}
+
+/*BORDER TRATTEGGIATO*/
+
+.borderdotted{
+    border: 2px dotted;
+}
+
+/*BACKGROUND COLOR*/
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-blue{
+    background-color: rgb(2, 2, 180);
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-pinkstrong{
+    background-color: rgb(146, 66, 98);
+}
+
+.bg-aquastrong{
+    background-color: rgb(3, 163, 163);
+}
+
+.bg-aqua{
+    background-color: rgb(169, 250, 250);
+}
+
+.bg-lightgray{
+    background-color: lightgray;
+}
+
+.bg-lightblack{
+    background-color: rgb(54, 50, 50);
+}
+
+/*GRANDEZZE HEIGHT*/
+
+.height-header-footer{
+    height: 50%;
+}
+
+.height-300px{
+    height: 300px;
+}
+
+.height-400px{
+    height: 400px;
+}
+
+.height-600px{
+    height: 600px;
+}
+
+.height-60per{
+    height:60%
+}
+
+.height-80per{
+    height:80%
+}
+
+.height-90per{
+    height:90%
+}
+
+/*GRANDEZZE WIDTH*/
+
+
+.width-60per{
+    width: 60%;
+}
+
+.width-80per{
+    width: 80%;
+}
+
+.width-90per{
+    width: 90%;
+}
+
+
+.width-100per{
+    width: 100%;
+}
+/*FLEX*/
+.flex{
+    display: flex;
+}
+
+/*ALIGN-ITEMS: CENTER*/
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+/*both*/
+
+.justify-and-align-center{
+    justify-content: center;
+    align-items: center;
+}
+
+/*space-between*/
+.space-between{
+    justify-content: space-between;
+}
+
+/*                       HEADER                           */
+
+header{
+    height: 65px;
+    justify-content: center;
+}
+
+
+/*CONTENUTO DEL MENU*/
+
+.logo{
+    border: 2px solid black;
+    width: 20%;
+    height: 100%;
+    text-align: start;
+}
+
+.link{
+    justify-content: center;
+    border: 2px solid black;
+    width: 60%;
+    height: 100%;
+}
+
+.login{
+    justify-content: flex-end;
+    border: 2px solid black;
+    width: 20%;
+    height: 100%;
+}
+
+/*distacco tra i link*/
+
+.link a{
+    margin: 5px;
+}
+
+/*distacco per logo e link*/
+
+div .margin-5{
+    margin: 10px;
+}
+
+
+/*                        MAIN                            */
+
+.rettangoloBlu{
+    background-color: rgb(26, 131, 222);
+    width: 50%;
+}
+
+.rettangoloPink{
+    background-color: pink;
+    width: 30%;
+}
+
+.miniRettangoloAqua{
+    background-color: aqua;
+    width: 10%;
+    border: 2px dotted;
+}
+
+.mediumRettangoloSalmone{
+    background-color: rgb(236, 120, 120);
+    width: 20%;
+    border: 2px dotted;
+}
+
+/*                        FOOTER                            */
+
+.zonaFooter{
+    height: 65px;
+    justify-content: center;
+    background-color: rgb(54, 50, 50);
+}
+
+/*posizionamento logo + bottone*/
+
+div button{
+    min-width: 50px;
+    height: 60%;
+    justify-items: flex-end;
+}
+
+/*effetto bottone cursore*/
+
+.bottone{
+    cursor: pointer;
+}
