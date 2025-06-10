@@ -307,10 +307,13 @@ header{
 }
 
 .btnLightBlue{
-    width: 160px;
+    width: 130px;
     background-color: #3e4dd9;
     color: white;
 }
+
+/*                        FOOTER                            */
+
 
 .miniRettangoloAqua{
     background-color: aqua;
@@ -324,18 +327,15 @@ header{
     border: 2px dotted;
 }
 
-/*                        FOOTER                            */
 
 .zonaFooter{
     height: 65px;
     justify-content: center;
+    align-items: center;
     background-color: rgb(54, 50, 50);
 }
 
-
-
-/*effetto bottone cursore*/
-
-.bottone{
-    cursor: pointer;
+.imgFooter{
+    width: 100%;
+    height: 100%;
 }
