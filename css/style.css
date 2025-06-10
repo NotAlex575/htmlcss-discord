@@ -52,7 +52,7 @@ a{
 }
 
 .bg-blueStrong{
-    background-color: #4f5de1
+    background-color: #3e4dd9;
 }
 
 /*GRANDEZZE HEIGHT*/
@@ -87,9 +87,16 @@ a{
 
 /*GRANDEZZE WIDTH*/
 
+.width-55per{
+    width: 55%;
+}
 
 .width-60per{
     width: 60%;
+}
+
+.width-70per{
+    width: 70%;
 }
 
 .width-80per{
@@ -104,7 +111,21 @@ a{
 .width-100per{
     width: 100%;
 }
+
+/*MARGIN*/
+
+.margin-10{
+    margin: 20px;
+}
+
+/*distacco per logo e link*/
+
+div .margin-5{
+    margin: 10px;
+}
+
 /*FLEX*/
+
 .flex{
     display: flex;
 }
@@ -128,6 +149,11 @@ a{
 /*space-between*/
 .space-between{
     justify-content: space-between;
+}
+
+/*space-around*/
+.space-around{
+    justify-content: space-around;
 }
 
 /*                       HEADER                           */
@@ -162,6 +188,7 @@ header{
     border-radius: 25px;
     height: 40px;
     width: 80px;
+    cursor: pointer;
 }
 
 /*distacco tra i link*/
@@ -170,14 +197,51 @@ header{
     margin: 5px;
 }
 
-/*distacco per logo e link*/
-
-div .margin-5{
-    margin: 10px;
-}
 
 
 /*                        MAIN                            */
+
+/*PRIMO RETTANGOLO*/
+.sfondo{
+    background-image: url(/img/jumbo.png);
+    margin: auto;
+}
+
+.Sfondo-H1-testo{
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.Sfondo-p-testo{
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    margin-bottom: 20px;
+}
+
+.buttonSfondo{
+    border-radius: 25px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btnBianco{
+    width: 170px;
+    margin-left: 40px   
+}
+
+.btnNero{
+    margin-right: 40px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    width: 220px;
+}
+
+
+
 
 .rettangoloBlu{
     background-color: rgb(26, 131, 222);
