@@ -6,9 +6,22 @@
 
 /*LINK SENZA DECORAZIONE*/
 
-a{
+li a{
     text-decoration: none;
     color: white;
+    font-size: small;
+}
+
+li{
+    list-style-type: none;
+    color: #3e4dd9;
+}
+
+/*SIZE CONTAINER*/
+
+.containerSize{
+    width: 10%;
+    height: 80%;
 }
 
 /*BORDER TRATTEGGIATO*/
@@ -124,6 +137,14 @@ a{
 
 .margin-top-20{
     margin-top: 20px;
+}
+
+.margin-right-10{
+    margin-right: 10px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
 }
 
 /*distacco per logo e link*/
@@ -315,18 +336,25 @@ header{
 /*                        FOOTER                            */
 
 
-.miniRettangoloAqua{
-    background-color: aqua;
+.miniRettangoloLink{
+    
     width: 10%;
-    border: 2px dotted;
+
 }
 
-.mediumRettangoloSalmone{
-    background-color: rgb(236, 120, 120);
+.logoLink{
+    color: black;
+}
+
+.mediumRettangoloLink{
+    
     width: 20%;
-    border: 2px dotted;
 }
 
+.h3Footer{
+    color: #3e4dd9;
+    font-size: x-large;
+}
 
 .zonaFooter{
     height: 65px;
