@@ -77,6 +77,10 @@ a{
     height: 600px;
 }
 
+.height-800px{
+    height: 800px;
+}
+
 .height-60per{
     height:60%
 }
@@ -118,8 +122,8 @@ a{
 
 /*MARGIN*/
 
-.margin-10{
-    margin: 20px;
+.margin-top-20{
+    margin-top: 20px;
 }
 
 /*distacco per logo e link*/
@@ -128,10 +132,22 @@ div .margin-5{
     margin: 10px;
 }
 
+/*TEXT*/
+
+.text-center{
+    text-align: center;
+}
+
 /*FLEX*/
 
 .flex{
     display: flex;
+}
+
+/*FLEX DIRECTION: COLUMN*/
+
+.flex-column{
+    flex-direction: column;
 }
 
 /*ALIGN-ITEMS: CENTER*/
@@ -139,6 +155,7 @@ div .margin-5{
     align-items: center;
 }
 
+/*JUSTIFY-CONTENT: CENTER*/
 .justify-content-center{
     justify-content: center;
 }
@@ -280,6 +297,21 @@ header{
     width: 60%;
 }
 
+.container-just-chilling{
+    width: 50%;
+    height: 70%;
+}
+
+.img-Just-chilling{
+    width: 50%;
+}
+
+.btnLightBlue{
+    width: 160px;
+    background-color: #3e4dd9;
+    color: white;
+}
+
 .miniRettangoloAqua{
     background-color: aqua;
     width: 10%;
@@ -300,13 +332,7 @@ header{
     background-color: rgb(54, 50, 50);
 }
 
-/*posizionamento logo + bottone*/
 
-div button{
-    min-width: 50px;
-    height: 60%;
-    justify-items: flex-end;
-}
 
 /*effetto bottone cursore*/
 
