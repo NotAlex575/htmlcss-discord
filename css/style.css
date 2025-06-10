@@ -247,8 +247,12 @@ header{
 /*RETTANGOLI FOTO ALLA SINISTRA + DESCRIZIONE A DESTRA*/
 
 
-.rettangoloImg{
-    width: 60%;
+.rettangoloImgDestra{
+    margin-left: 120px;
+}
+
+.rettangoloImgSinistra{
+    margin-right: 120px;
 }
 
 .centraIMG{
@@ -258,6 +262,9 @@ header{
 
 .rettangoloDescription{
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .titolo-sezioni{
@@ -270,7 +277,7 @@ header{
 
 .descrizione-sezioni{
     font-size: 13px;
-    width: 80%;
+    width: 60%;
 }
 
 .miniRettangoloAqua{
